@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="cellIdentify2" rowHeight="116" id="KGk-i7-Jjw" customClass="Custom2TableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="116"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="115"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" highlightedImage="imageStack" translatesAutoresizingMaskIntoConstraints="NO" id="wZl-DQ-Web">
+                        <rect key="frame" x="8" y="11" width="93" height="88"/>
+                        <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="88" id="RCR-GD-Z06"/>
+                            <constraint firstAttribute="width" constant="93" id="TSE-mr-Gzb"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7uJ-rt-g9T">
+                        <rect key="frame" x="123" y="35" width="172" height="80"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="7uJ-rt-g9T" secondAttribute="trailing" constant="17" id="A07-eF-bs4"/>
+                    <constraint firstItem="wZl-DQ-Web" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="3" id="Ea1-CC-d05"/>
+                    <constraint firstItem="7uJ-rt-g9T" firstAttribute="leading" secondItem="wZl-DQ-Web" secondAttribute="trailing" constant="22" id="LNW-ea-jON"/>
+                    <constraint firstAttribute="bottom" secondItem="7uJ-rt-g9T" secondAttribute="bottom" priority="252" id="VMS-Xj-9N0"/>
+                    <constraint firstAttribute="bottom" secondItem="wZl-DQ-Web" secondAttribute="bottom" priority="251" id="ePt-FZ-Diz"/>
+                    <constraint firstItem="7uJ-rt-g9T" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="27" id="gNe-qm-f3A"/>
+                    <constraint firstAttribute="leadingMargin" secondItem="wZl-DQ-Web" secondAttribute="leading" id="wAN-28-sbB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="imageViewImage" destination="wZl-DQ-Web" id="cKH-fG-LPN"/>
+                <outlet property="labelText" destination="7uJ-rt-g9T" id="6PF-oE-WDQ"/>
+            </connections>
+            <point key="canvasLocation" x="245" y="346"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="imageStack" width="22" height="23"/>
+    </resources>
+</document>
