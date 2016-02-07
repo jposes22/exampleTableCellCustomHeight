@@ -17,6 +17,7 @@
 		3AA2B32D1C57FB83000BA244 /* CustomizaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2B32B1C57FB83000BA244 /* CustomizaTableViewCell.m */; };
 		3AA2B32E1C57FB83000BA244 /* CustomizaTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AA2B32C1C57FB83000BA244 /* CustomizaTableViewCell.xib */; };
 		3AA2B3311C57FE0C000BA244 /* CustomClas.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2B3301C57FE0C000BA244 /* CustomClas.m */; };
+		3AF6AB091C6763A40080A01E /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AF6AB081C6763A40080A01E /* ViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,8 @@
 		3AA2B32C1C57FB83000BA244 /* CustomizaTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomizaTableViewCell.xib; sourceTree = "<group>"; };
 		3AA2B32F1C57FE0C000BA244 /* CustomClas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomClas.h; sourceTree = "<group>"; };
 		3AA2B3301C57FE0C000BA244 /* CustomClas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomClas.m; sourceTree = "<group>"; };
+		3AF6AB071C6763A40080A01E /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		3AF6AB081C6763A40080A01E /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 				3AA2B32C1C57FB83000BA244 /* CustomizaTableViewCell.xib */,
 				3AA2B32F1C57FE0C000BA244 /* CustomClas.h */,
 				3AA2B3301C57FE0C000BA244 /* CustomClas.m */,
+				3AF6AB071C6763A40080A01E /* ViewController2.h */,
+				3AF6AB081C6763A40080A01E /* ViewController2.m */,
 			);
 			path = fdsfdsfsdf;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AF6AB091C6763A40080A01E /* ViewController2.m in Sources */,
 				3AA2B31E1C57FB47000BA244 /* fdsfdsfsdf.xcdatamodeld in Sources */,
 				3AA2B3181C57FB47000BA244 /* ViewController.m in Sources */,
 				3AA2B3151C57FB47000BA244 /* AppDelegate.m in Sources */,
@@ -284,6 +290,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = fdsfdsfsdf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.veropose.fdsfdsfsdf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +302,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = fdsfdsfsdf/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.veropose.fdsfdsfsdf;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -320,6 +328,7 @@
 				3AA2B3291C57FB47000BA244 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
